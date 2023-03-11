@@ -7,9 +7,9 @@ import KookieLayout from '@/Layouts/KookieLayout.vue'
     <Head title="Welcome" />
 
     <KookieLayout>
-        <div class="bg-red-900">
+        <!-- <div class="bg-red-900">
             Welcome
-        </div>
+        </div> -->
     </KookieLayout>
    
 </template>

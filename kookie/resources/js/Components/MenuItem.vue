@@ -28,6 +28,7 @@ import Pound from 'vue-material-design-icons/Pound.vue';
 import BellOutline from 'vue-material-design-icons/BellOutline.vue';
 import EmailOutline from 'vue-material-design-icons/EmailOutline.vue';
 import AccountOutline from 'vue-material-design-icons/AccountOutline.vue';
+import ViewAgenda from 'vue-material-design-icons/ViewAgenda.vue';
 
 const props = defineProps({
     iconString: String,
@@ -42,6 +43,7 @@ if(iconString.value == "Explore") icon = Pound
 if(iconString.value == "Notifications") icon = BellOutline
 if(iconString.value == "Messages") icon = EmailOutline
 if(iconString.value == "Profile") icon = AccountOutline
+if(iconString.value == "Community") icon = ViewAgenda
 
 </script>
 
