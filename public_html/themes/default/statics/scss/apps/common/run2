@@ -1,1 +1,0 @@
-scss --watch style.mq.scss:../../../css/apps/common/style.mq.css
